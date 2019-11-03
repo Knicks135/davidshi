@@ -132,6 +132,10 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		padding-top: 0px;
+  		padding-right: 30px;
+  		padding-bottom: 0px;
+  		padding-left: 30px;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -159,6 +163,10 @@ input, select, textarea {
 	h3 {
 		font-size: 1.25em;
 		line-height: 1.5em;
+		letter-spacing: 0.08em;
+		font-weight: 300;
+		text-shadow: 0 1px 1px #FFFFFF;
+		text-transform: uppercase;
 	}
 
 	h4 {
@@ -172,9 +180,29 @@ input, select, textarea {
 	}
 
 	h6 {
-		font-size: 0.7em;
-		line-height: 1.5em;
+		font-size: 16pt;
+		letter-spacing: 0.08em;
+		font-weight: 300;
+		color: #a2a2a2;
+		text-shadow: 0 1px 1px #FFFFFF;
 	}
+
+	.divider-6 {
+		border-bottom: 1px solid #FFF;
+		background-color: #DADADA;
+		height: 2px;
+		width: 500px;
+		margin: 0.5em 0px 0em;
+	}
+
+	.divider-6 span {
+		display: block;
+		width: 100px;
+		height: 3px;
+		background-color: #DADADA;
+	}
+
+
 
 	sub {
 		font-size: 0.8em;
