@@ -158,6 +158,10 @@ input, select, textarea {
 	h2 {
 		font-size: 1.5em;
 		line-height: 1.5em;
+		letter-spacing: 0.08em;
+		font-weight: 300;
+		text-shadow: 0 1px 1px #FFFFFF;
+		text-transform: uppercase;
 	}
 
 	h3 {
